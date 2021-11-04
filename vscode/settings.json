@@ -1,0 +1,70 @@
+{
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.enabled": false,
+  "gitlens.blame.format": "${author|20} ${message|30?} ${agoOrDate|14-}",
+  "breadcrumbs.enabled": true,
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "editor.tabSize": 2,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terraform.indexing": {
+      "enabled": false,
+      "liveIndexing": false,
+      "delay": 500,
+      "exclude": [
+          ".terraform/**/*",
+          "**/.terraform/**/*"
+      ]
+  },
+  "terraform.languageServer": {
+      "external": true,
+      "args": [
+          "serve"
+      ]
+  },
+  "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+  },
+  "java.requirements.JDK11Warning": false,
+  "liveshare.featureSet": "insiders",
+  "python.languageServer": "Microsoft",
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "jest.autoEnable": false,
+  "jest.runAllTestsFirst": false,
+  "jest.showCoverageOnLoad": false,
+  "workbench.editorAssociations": {
+      "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "window.autoDetectColorScheme": true,
+  "editor.accessibilitySupport": "off",
+  "redhat.telemetry.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.associations": {
+      "*.dockerignore": "ignore"
+  },
+  "workbench.colorTheme": "Default Light+"
+}

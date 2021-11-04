@@ -1,0 +1,19 @@
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+		rbpick = !BRANCH=`git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@'` && git fetch origin "$BRANCH" && ID=`git log --format="%H" -n 1` && git reset --hard "origin/$BRANCH" && git cherry-pick "$ID" && :
+
+[user]
+	name = Tomás Fox
+	email = tomas.c.fox@gmail.com
+	signingkey = 8D116A686EDD53B9
+
+[commit]
+	gpgSign = true
+
+[push]
+	default = current
+
+[init]
+	defaultBranch = main
